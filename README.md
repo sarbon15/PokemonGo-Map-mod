@@ -14,7 +14,7 @@ Then run as follows:
 
 or if using a google account
 
-python mod_example.py -a google -u <USER> -p <PASSWORD> -l "<LOCATION>" -st 10
+`python mod_example.py -a google -u <USER> -p <PASSWORD> -l "<LOCATION>" -st 10`
 
 This will print out the approximate distance in feet, direction, and minutes until expiration of each pokemon found like so:
 ```
