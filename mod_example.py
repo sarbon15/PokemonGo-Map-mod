@@ -733,7 +733,7 @@ transform_from_wgs_to_gcj(Location(Fort.Latitude, Fort.Longitude))
         current_mon = pokes_by_id[mon_key]
         print '{: >6d}  {:s} '.format(len(current_mon), mon_key),
         for poke in (sorted(current_mon.values(), key=lambda i:i['dist'])):
-            print '[{: >4d}:{: <3s} - {:4.1f}m]'.format(poke['dist'], poke['dir'], get_minutes_left(poke['disappear_time'])),
+            print '[{: >4d}ft:{: <3s} - {:4.1f}m]'.format(poke['dist'], poke['dir'], get_minutes_left(poke['disappear_time'])),
         print ''
 
 def replace_gender_symbols(string):
